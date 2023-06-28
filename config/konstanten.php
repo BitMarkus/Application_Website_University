@@ -2,7 +2,7 @@
 #####################################
 ### Konstanten für lokalen Server ###
 #####################################
-/*
+
 //Zugangsdaten zur lokalen Datenbank "bewstud"
 define('MYSQL_HOST', 'localhost');
 define('MYSQL_USER', 'root');
@@ -15,23 +15,6 @@ define("LINK_AKTIVIERUNG", "http://localhost/StudBew/index.php?seite=aktivierung
 define("LINK_INT_BEREICH_BEWERBER", "http://localhost/StudBew/index.php?seite=intern_bewerber");
 //Link zum internen Bereich der Administratoren
 define("LINK_INT_BEREICH_ADMIN", "http://localhost/StudBew/index.php?seite=intern_admin");
-*/
-######################################
-### Konstanten für all-inkl Server ###
-######################################
-
-//Zugangsdaten zur Datenbank "d03d6c49" auf dem All-Inkl Server
-define('MYSQL_HOST', 'reichold-markus.de');
-define('MYSQL_USER', 'd03d6c49');
-define('MYSQL_PASS', 'kghf2xbhgCpvCtK2aiNY');
-define('MYSQL_DATABASE', 'd03d6c49');
-
-//Link, auf welchen die Best&auml;tigungs-Email verweist
-define("LINK_AKTIVIERUNG", "http://www.reichold-markus.de/StudBew/index.php?seite=aktivierung");
-//Link zum internen Bereich der Bewerber
-define("LINK_INT_BEREICH_BEWERBER", "http://www.reichold-markus.de/StudBew/index.php?seite=intern_bewerber");
-//Link zum internen Bereich der Administratoren
-define("LINK_INT_BEREICH_ADMIN", "http://www.reichold-markus.de/StudBew/index.php?seite=intern_admin");
 
 ###################################
 # CHARSET UND KOLLATE VON STRINGS #
