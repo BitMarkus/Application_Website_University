@@ -9,7 +9,7 @@ define('MYSQL_USER', 'root');
 define('MYSQL_PASS', '');
 define('MYSQL_DATABASE', 'bewstud');
 
-//Link, auf welchen die Best&auml;tigungs-Email verweist
+//Link, auf welchen die Bestätigungs-Email verweist
 define("LINK_AKTIVIERUNG", "http://localhost/StudBew/index.php?seite=aktivierung");
 //Link zum internen Bereich der Bewerber
 define("LINK_INT_BEREICH_BEWERBER", "http://localhost/StudBew/index.php?seite=intern_bewerber");
@@ -94,5 +94,6 @@ define('ANZAHL_DATENSATZ_PRO_SUBSEITE_SUCHE', 100);
 //Konstante gibt den Tag und den Monat des Anmeldebeginns an
 define('ANMELDEBEGINN_D_M', "15.06.");
 //Konstante gibt den Tag und den Monat der Anmeldefrist an
-define('ANMELDEENDE_D_M', "15.07.");
+//define('ANMELDEENDE_D_M', "15.07.");
+define('ANMELDEENDE_D_M', "14.06.");
 ?>
