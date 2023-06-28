@@ -44,7 +44,7 @@ if(isset($email) AND isset($key))
             {
                 echo("<div class=\"Information\">\n");
                 echo("<b>Ihre Bewerbung ist erfolgreich abgeschlossen!</b><br />");
-                echo("Vielen Dank f&uuml;r Ihre Bewerbung f&uuml;r den Studiengang Molekulare Medizin an der Universit&auml;t Regensburg. ");
+                echo("Vielen Dank f&uuml;r Ihre Bewerbung f&uuml;r den Studiengang. ");
                 echo("Sie k&ouml;nnen sich nun in den internen Bereich einloggen, von wo aus Sie Ihre Daten einsehen und gegebenenfalls noch &auml;ndern k&ouml;nnen.");
                 echo("</div><br />\n");
 
@@ -54,12 +54,12 @@ if(isset($email) AND isset($key))
 
                 echo("Die Vergabe der Studienpl&auml;tze erfolgt &uuml;ber ein sogenanntes \"Eignungsfeststellungsverfahren\". Bei dem zweistufigen Verfahren werden zun&auml;chst Ihre Angaben aus ");
                 echo("der Online-Bewerbung (1. Stufe) bewertet. Bei ausreichend hohem Ergebnis werden Sie zum Auswahlgespr&auml;ch (2. Stufe) eingeladen, welches ebenfalls benotet wird. ");
-                echo("F&uuml;r die Feststellung Ihrer Eignung zum Bachelorstudium Molekulare Medizin werden die Leistungen aus Stufe 1 und 2 miteinander verrechnet. ");
+                echo("F&uuml;r die Feststellung Ihrer Eignung zum Bachelorstudium werden die Leistungen aus Stufe 1 und 2 miteinander verrechnet. ");
                 echo("Bei einem ausreichend hohem Endergebnis bekommen Sie dann einen Studienplatz angeboten.<br /><br />");
 
                 echo("<u>Auswahlgespr&auml;ch</u><br />");
                 echo("Sie werden bis Ende Juli ".date("Y")." per Email und per Post dar&uuml;ber informiert, ob und gegebenenfalls wann Sie zu einem Auswahlgespr&auml;ch eingeladen werden. ");
-                echo("Das Auswahlgespr&auml;ch wird in der Regel bis 15.08. an der Universit&auml;t Regensburg durchgef&uuml;hrt. ");
+                echo("Das Auswahlgespr&auml;ch wird in der Regel bis 15.08. an der Universit&auml;t durchgef&uuml;hrt. ");
                 echo("Die Auswahlkommission f&uuml;hrt dabei ca. 30 min&uuml;tige Gruppengespr&auml;che mit maximal drei Bewerbern. ");
                 echo("Erst nach dem Auswahlgespr&auml;ch wird dar&uuml;ber entschieden, ob Ihnen ein Studienplatz angeboten wird.<br /><br />");
                 echo("<b>Bitte beachten Sie:</b> ");

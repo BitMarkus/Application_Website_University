@@ -92,8 +92,9 @@ define('FAKTOR_NATURWISSENSCHAFT', 1.3);
 define('ANZAHL_DATENSATZ_PRO_SUBSEITE_UEBERSICHT', 100);
 define('ANZAHL_DATENSATZ_PRO_SUBSEITE_SUCHE', 100);
 //Konstante gibt den Tag und den Monat des Anmeldebeginns an
-define('ANMELDEBEGINN_D_M', "15.06.");
+//define('ANMELDEBEGINN_D_M', "15.06.");
+define('ANMELDEBEGINN_D_M', "01.01.");
 //Konstante gibt den Tag und den Monat der Anmeldefrist an
 //define('ANMELDEENDE_D_M', "15.07.");
-define('ANMELDEENDE_D_M', "14.06.");
+define('ANMELDEENDE_D_M', "31.12.");
 ?>

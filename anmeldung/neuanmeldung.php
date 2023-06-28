@@ -265,7 +265,6 @@ if(bewerbungsperiode())
             //Adresse, an welche die Email verschickt wird
             $adresse = "".trim($_POST['email'])."";
             //Betreff
-            //$betreff = "Bewerbung f&uuml;r Molekulare Medizin - Universit&auml;t Regensburg htmlXspecialcharshars(trim($_POST['vorname'])).htmlXspecialcharshars(trim($_POST['nachname']))."";
             $betreff = "Bewerbung für Teststudiengang an Testuniversität";
             //Header
             $header = "From: ".EMAIL_SEKRETARIAT."\r\n";

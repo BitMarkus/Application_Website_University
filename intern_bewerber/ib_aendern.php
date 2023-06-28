@@ -1154,7 +1154,7 @@ else
     //Infozeile
     echo("<tr style=\"".($active_page == 4 ? "" : "display:none;")."\">\n");
     echo("<td colspan=\"2\" class=\"Infozeile\">");
-    echo("<b>Begr&uuml;ndung *</b>, warum der Studiengang Molekulare Medizin an der Uni Regensburg angestrebt wird (max. 200 W&ouml;rter)");
+    echo("<b>Begr&uuml;ndung *</b>, warum der Studiengang angestrebt wird (max. 200 W&ouml;rter)");
     echo("</td>\n");
     echo("</tr>\n");
 
@@ -2053,7 +2053,7 @@ else
 
         //&UUML;berpr&uuml;fung, ob irgend eine Angabe gemacht wurde
         if(trim($_POST['begruendung']) == "")
-        {$ergebnis_check = false; $warnung['keine_begruendung'] = "Es wurde keine Begr&uuml;ndung angegeben, warum der Studiengang Molekulare Medizin an der Universit&auml;t Regensburg angestrebt wird!";}
+        {$ergebnis_check = false; $warnung['keine_begruendung'] = "Es wurde keine Begr&uuml;ndung angegeben, warum der Studiengang angestrebt wird!";}
         else
         {$ergebnis_check = true;}
         echo("<tr".style_input_check($zeile = 1, $ergebnis_check).">\n");
