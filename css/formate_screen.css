@@ -1,0 +1,455 @@
+/* BODY */
+body
+{
+    color: black;
+    background-color: #FFFFFF;
+    font-size: 100.01%;
+    font-family: Calibri;
+    margin: 0;
+    padding: 1em;
+}
+
+html>body h1
+{
+    border-color: gray;  /* Farbangleichung an den Internet Explorer  */
+}
+/* BODY ENDE */
+
+/* LINKS */
+.Link1
+{
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: 12pt;
+}
+.Link1 a
+{
+    color: black;
+    text-decoration: none;
+}
+.Link1 a:hover
+{
+    color: red;
+}
+
+.Link2
+{
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: 14pt;
+}
+.Link2 a
+{
+    color: black;
+    text-decoration: none;
+}
+.Link2 a:hover
+{
+    color: red;
+}
+
+.Link3
+{
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: 12pt;
+}
+.Link3 a
+{
+    color: blue;
+    text-decoration: none;
+}
+.Link3 a:hover
+{
+    color: red;
+}
+
+.Link_Login
+{
+    font-family: Calibri;
+    font-size: 10pt;
+}
+.Link_Login a
+{
+    color: #888888;
+    text-decoration: none;
+}
+.Link_Login a:hover
+{
+    color: red;
+}
+
+/* LINKS ENDE */
+
+/* &Uuml;BERSCHRIFTEN */
+.h1
+{
+    font-size: 20pt;
+    font-weight: bold;
+    background-color: #EEEEEE;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    border-left: 20px solid #888888;
+    border-bottom: 2px solid #888888;
+}
+.h2
+{
+    font-size: 14pt;
+    font-weight: bold;
+    margin: 20px 0 5px 0;
+    padding-left: 5px;
+    border-left: 5px solid #888888;
+    border-bottom: 1px solid #888888;
+}
+.h2_teil
+{
+    font-size: 14pt;
+    font-weight: bold;
+    margin: 20px 0 5px 0;
+    padding-left: 5px;
+}
+.h3
+{
+    font-size: 14pt;
+    font-weight: bold;
+    color: blue; 
+    margin: 20px 0 5px 0;
+    padding-left: 5px;
+    border-left: 5px solid #888888;
+    border-bottom: 1px solid #888888;
+}
+.h3_teil
+{
+    font-size: 14pt;
+    font-weight: bold;
+    margin: 20px 0 5px 0;
+    padding-left: 5px;
+}
+/* &Uuml;BERSCHRIFTEN ENDE */
+
+/* HAUPTTABELLE */
+table#Haupttabelle
+{
+    width: 960px;
+}
+/* HAUPTTABELLE ENDE */
+
+/* KOPFZEILE */
+#Kopf
+{
+    padding: 0.4em;
+    background-color: #EEEEEE;
+}
+/* KOPFZEILE ENDE */
+
+/* INHALT */
+#Inhalt
+{
+    padding: 0.5em;
+    text-align: justify;
+}
+.Info
+{
+    margin-bottom: 20px;
+}
+/* INHALT ENDE */
+
+/* FUSSZEILE */
+#Fuss
+{
+    padding: 0.4em;
+    background-color: #EEEEEE;
+}
+/* FUSSZEILE ENDE */
+
+/* LOGIN */
+.Tabelle_Login
+{
+    width:100%;
+    border: 1px solid #6A6A6A;
+    color: #6A6A6A;
+    background-color: #EEEEEE;
+    font-weight: bold;
+    padding: 3px;
+    margin:20px 0 20px 0;
+}
+.Tabelle_Logout
+{
+    width:100%;
+    border: 1px solid #6A6A6A;
+    color: black;
+    background-color: #EEEEEE;
+    font-weight: bold;
+    font-size: 14pt;
+    padding: 3px;
+    margin: 10px 0 0 0;
+}
+.Tabelle_Login_Warnung
+{
+    width:100%;
+    border: 1px solid red;
+    color: red;
+    background-color: #FFE1E2;
+    font-weight: bold;
+    padding: 3px;
+    margin: 20px 0 20px 0;
+}
+/* LOGIN ENDE */
+
+/* ANMELDUNG */
+#Tabelle_Anmeldung
+{
+    width: 100%;
+}
+.Reiter_inaktiv
+{
+    background-color: #BBBBBB;
+    text-align: center;
+    border-left: 1px solid #6A6A6A;
+    border-top: 1px solid #6A6A6A;
+    border-bottom: 1px solid #6A6A6A;
+    width: 20%;
+    font-weight: bold;
+    color: #6A6A6A;
+}
+.Reiter_aktiv
+{
+    background-color: white;
+    text-align: center;
+    border-left: 1px solid #6A6A6A;
+    border-top: 1px solid #6A6A6A;
+    width: 20%;
+    font-weight: bold;
+    color: red;
+}
+.Reiter_inaktiv_letzte
+{
+    background-color: #BBBBBB;
+    text-align: center;
+    border-left: 1px solid #6A6A6A;
+    border-top: 1px solid #6A6A6A;
+    border-bottom: 1px solid #6A6A6A;
+    border-right: 1px solid #6A6A6A;
+    width: 20%;
+    font-weight: bold;
+    color: #6A6A6A;
+}
+.Reiter_aktiv_letzte
+{
+    background-color: white;
+    text-align: center;
+    border-left: 1px solid #6A6A6A;
+    border-top: 1px solid #6A6A6A;
+    border-right: 1px solid #6A6A6A;
+    width: 20%;
+    font-weight: bold;
+    color: red;
+}
+.Formular_Anmeldung
+{
+    border-left: 1px solid #6A6A6A;
+    border-bottom: 1px solid #6A6A6A;
+    border-right: 1px solid #6A6A6A;
+    padding: 20px 10px 10px 10px;
+}
+.Infozeile
+{
+    border-bottom: 1px solid #6A6A6A;
+    color: black;
+    background-color: white;
+    font-size: 13pt;
+}
+.Information
+{
+    border: 1px solid #6A6A6A;
+    color: #6A6A6A;
+    text-align: justify;
+    padding: 5px;
+    margin-top: 20px;
+}
+.Information_Warnung
+{
+    border: 1px solid red;
+    color: red;
+    background-color: #FFE1E2;
+    text-align: justify;
+    padding: 5px;
+    margin-top: 20px;
+}
+.Ueberschrift_Zusammenfassung
+{
+    border-bottom: 1px solid #6A6A6A;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    font-size: 13pt;
+}
+.Zeile_Bezeichnung
+{
+    color: #6A6A6A;
+    font-weight: bold;
+}
+.Leerzeile
+{
+    height: 10px;
+}
+.hr_1   /* Trennlinie als <div> wegen sch... IE */
+{
+    height: 1px;
+    overflow: hidden;
+    padding: 0;
+    background: #6A6A6A;
+    margin: 10px 0 0 0;
+}
+.Reiter_Buttons_inaktiv
+{
+    background-color: transparent;
+    color: #6A6A6A;
+    cursor: pointer;
+    border-style: none;
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: 13pt;
+}
+.Reiter_Buttons_aktiv
+{
+    background-color: transparent;
+    color: red;
+    cursor: pointer;
+    border-style: none;
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: 13pt;
+}
+.Buttons_Unten
+{
+    background-color: transparent;
+    color: red;
+    cursor: pointer;
+    border-style: none;
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: 13pt;
+    margin: 0;
+    padding: 0;
+}
+/* ANMELDUNG ENDE */
+
+/* NAVIGATION BEWERBER INTERN */
+#Nav_I ul
+{
+    padding: 0;
+    margin: 0;
+    background-color: #EEEEEE;
+    width: 100%;
+    font-size: 12pt;
+    list-style-type: none;
+}
+#Nav_I ul li a
+{
+    color: black;
+    font-weight: bold;
+    padding-right: 10px;
+    text-decoration: none;
+}
+#Nav_I ul li a:hover
+{
+    color: red;
+}
+/* NAVIGATION BEWERBER INTERN ENDE */
+
+/* NAVIGATION ADMIN INTERN */
+#Nav_II ul
+{
+    padding: 0;
+    margin: 0 0 20px 0;
+    width: 100%;
+    font-size: 12pt;
+    list-style-type: none;
+}
+#Nav_II ul li a
+{
+    color: black;
+    font-weight: bold;
+    padding-right: 10px;
+    text-decoration: none;
+}
+#Nav_II ul li a:hover
+{
+    color: red;
+}
+/* NAVIGATION ADMIN INTERN ENDE */
+
+/* SONST FORMATIERUNGEN */
+.Auswahlfeld /* z.B. Option-Felder */
+{
+    font-style: italic;
+}
+.Abstandhalter_Div
+{
+    height: 100px;
+}
+.Warnung
+{
+    border: 1px solid red;
+    color: red;
+    background-color: #FFE1E2;
+}
+/* SONST FORMATIERUNGEN ENDE */
+
+/* TABELLE F&Uuml;R &Uuml;BERSICHTSANZEIGEN */
+.Tabelle_Uebersicht
+{
+    width: 100%;
+    margin-bottom: 15px;
+}
+.Tabelle_Uebersicht_Rubrik
+{
+    border: 1px solid #6A6A6A;
+    font-weight: bold;
+    padding-left: 2px;
+    color: #6A6A6A;
+}
+.Buttons_Klein
+{
+    background-color: transparent;
+    color: red;
+    cursor: pointer;
+    border-style: none;
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: 11pt;
+    margin: 0;
+    padding: 0;
+}
+.Tabelle_Uebersicht_Footer
+{
+    border-top: 1px solid #6A6A6A;
+    padding-top: 4px;
+}
+.Tabelle_Leer
+{
+    border: 1px solid red;
+    color: red;
+    background-color: #FFE1E2;
+    text-align: center;
+    padding: 2px;
+    font-weight: bold;
+}
+.Tabelle_Blaettern
+{
+    width: 100%;
+    background-color: #EEEEEE;
+    margin-bottom: 20px;
+    color: #6A6A6A;
+}
+.Tabelle_Statistik
+{
+    width: 100%;
+    background-color: #EEEEEE;
+    margin-bottom: 10px;
+    padding: 2px;
+    color: #6A6A6A;
+}
+/* TABELLE F&Uuml;R &Uuml;BERSICHTSANZEIGEN ENDE */
